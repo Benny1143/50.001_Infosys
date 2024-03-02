@@ -1,15 +1,15 @@
-package Example55;
+package Week5.Lecture.Example55;
 
 public interface Observer{
     void update(double airPollutionIndex);
 }
 
 class Subscriber implements Observer{
-    private Subject subject;
+    private Example55.Subject subject;
     private String observerId;
     public static String outputMessage = "";
 
-    public Subscriber(String observerId, Subject subject){
+    public Subscriber(String observerId, Example55.Subject subject){
         this.subject=subject;
         this.observerId = observerId;
         this.subject.register(this);		// register itself

@@ -1,5 +1,7 @@
 package Example55;
 
+import Week5.Lecture.Example55.Observer;
+
 public interface Subject {
     void register(Observer o);
     void unregister(Observer o);
