@@ -1,4 +1,4 @@
-package ProblemSet1B;
+package Problem_Set1B;
 
 public class TestSound {
     // You are not required to modify this class

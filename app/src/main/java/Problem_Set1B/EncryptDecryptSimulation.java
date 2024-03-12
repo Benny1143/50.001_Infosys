@@ -1,4 +1,4 @@
-package ProblemSet1B;
+package Problem_Set1B;
 
 import java.math.BigInteger;
 import java.util.Arrays;
